@@ -1,0 +1,79 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    background: black;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    color: white;
+}
+
+.but{
+    margin: 25px;
+    text-align: center;
+    display:inline-block;
+}
+.hat{
+
+    width: 100%;
+    color: #DAA520;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    border: 0;
+}
+.hat h6{margin: 0;}
+div {
+    width: 100%;
+}
+
+.text{
+    background: #DAA520;
+    color: black; /* Цвет текста*/
+    padding: 0px; /* Поля вокруг текста*/
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+button, a {
+    background: #DAA520; /* Цвет фона */
+    border: 1px solid #7a7b7e; /* Параметры рамки */
+    border-radius: 30px;
+    box-shadow: 0 0 4px 5px #fff; /* Параметры свечения */
+    font-size: 20px;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-family: cursive
+}
+input{
+    background: #DAA520; /* Цвет фона */
+    border: 0px solid #7a7b7e; /* Параметры рамки */
+
+    border-radius: 20px;
+    box-shadow: 0 0 4px 3px #fff;
+    font-size: 15px;
+}
+.columns,input[type="radio"]{
+    color: #DAA520;
+    font-size: 20px;
+}
+
+.columns,input[type="checkbox"]{
+    color: #DAA520;
+    font-size: 20px;
+}
+table{
+    color: #DAA520;
+    border: 1px double #DAA520;
+    padding: 2px;
+    width: 100%;
+}
+th,td{
+    border: 1px solid #DAA520;
+}

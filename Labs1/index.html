@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">   
+</head>
+<body>
+    <div class = "hat">
+         <h6>Абакумова Ирина Андреевна<br> Группа P32121 <br>Вариант 11225</h6>
+    </div>
+    <br><br><br>
+    <form action="work.php" id="forms"  method="get" name="Date">
+    <table>
+        <td align="center">
+            <div class="txt">
+                <blockquote class="text">
+                    <p>Введите Х: </p>
+                </blockquote>
+                <input height="30px" name="x_coordinate" class="x" placeholder="От -3 до 5.">
+                <p id = "errorX"></p>
+            </div>
+        </td>
+        <td align="center">
+            <div >
+                <blockquote class="text">
+                    <p>Выберите Y: </p>
+                </blockquote>
+                <div>
+                    <input  type="checkbox" name="y_coordinate" class="y" id="y_value_-3" value="-3" >-3
+                    <input  type="checkbox" name="y_coordinate" class="y" id="y_value_-2" value="-2">-2
+                    <input  type="checkbox" name="y_coordinate" class="y" id="y_value_-1" value="-1">-1
+                    <input  type="checkbox" name="y_coordinate" class="y" id="y_value_0" value="0">0
+                    <input  type="checkbox" name="y_coordinate" class="y" id="y_value_1" value="1">1  <!-- выбран по дефолту-->
+                    <input  type="checkbox" name="y_coordinate" class="y" id="y_value_2" value="2">2
+                    <input  type="checkbox" name="y_coordinate" class="y" id="y_value_3" value="3">3
+                    <input  type="checkbox" name="y_coordinate" class="y" id="y_value_4" value="4">4
+                    <input  type="checkbox" name="y_coordinate" class="y" id="y_value_5" value="5">5
+                </div>
+                <p id = "errorY"></p>
+            </div>
+        </td>
+        <td align="center">
+            <div >
+                <blockquote class="text">
+                    <p>Выберите R: </p>
+                </blockquote>
+                <div>
+                    <input  type="radio" name="r_coordinate" class="r" id="r_value_1" value="1" > 1
+                    <input  type="radio" name="r_coordinate" class="r" id="r_value_2" value="2"> 2
+                    <input  type="radio" name="r_coordinate" class="r" id="r_value_3" value="3"> 3
+                    <input  type="radio" name="r_coordinate" class="r" id="r_value_4" value="4"> 4
+                    <input  type="radio" name="r_coordinate" class="r" id="r_value_5" value="5" checked> 5
+                </div>
+            </div>
+
+            </div>
+        </td>
+        <td>
+            <div ><img src="area.png"></div>
+        </td>
+        <tr>
+            <td colspan="4" align="center">
+
+                <div class="txt" >
+                    <button class="validate_button" type="submit"> Расчитать</button>
+                </div>
+
+            </td>
+        </tr>
+
+    </table>
+    </form>
+
+<script src="script.js">
+</script>
+
+
+</body>
+</html>
